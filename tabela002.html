@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;/*Tem que deixar a tabela em position relative para fixar o titulo da table*/
         }
         td, th {
             border: 1px solid black;
@@ -20,6 +21,11 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+        thead > tr >th { /*Configuração para fixar o titulo da table*/
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
         td.num{
             text-align: right;
