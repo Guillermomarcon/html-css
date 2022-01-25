@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(228, 228, 228);
+        }
+        div#container {
+            overflow-x:auto ;
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil veritatis ipsam distinctio commodi totam mollitia voluptas beatae non voluptatum animi itaque dolore accusamus numquam ipsa, perspiciatis quidem cum debitis fugit?
+
+    </p>
+          <!-- Para deixar uma tabela responsiva é necessario envelopar toda a tabela em uma div e no estilo definir a seguinte convicuração overflow-x: auto -->
+        <div id="container">
+            <table>
+                <caption>
+                    Tabelas Responsivas
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Janeiro</th>
+                        <th>Fevereiro</th>
+                        <th>Março</th>
+                        <th>Abril</th>
+                        <th>Março</th>
+                        <th>Maio</th>
+                        <th>junho</th>
+                        <th>Julho</th>
+                        <th>Agosto</th>
+                        <th>Setembro</th>
+                        <th>Outubro</th>
+                        <th>Novembrp</th>
+                        <th>Desembro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>processador</td>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>55</td>
+                        <td>13</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>9</td>
+                        <td>17</td>
+                        <td>98</td>
+                        <td>4</td>
+                        <td>12</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>cabo hdmi</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>7</td>
+                    </tr>
+            
+             <tr>
+                        <td>Placa mae</td>
+                        <td>7</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>hd externo</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>11</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>mause</td>
+                        <td>11</td>
+                        <td>10</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>7</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>4</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>12</td>
+                        <td>21</td>
+                        <td>44</td>
+                        <td>56</td>
+                        <td>76</td>
+                        <td>89</td>
+                        <td>3</td>
+                    </tr>
+            
+            
+                </tbody>
+                
+                </table>
+        </div>
+    
+</body>
+</html>
