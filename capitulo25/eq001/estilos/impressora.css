@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Estilos para impressoras*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5rem;
+
+}
+
+menu {
+    display: none;
+    /* o display: none faz não aparecer o menu na hora de imprimir se estiver na folha de estilo da impressora*/
+}
+
+article::after {
+    content:'Este site foi empresso atraver do curso, do curso em video' ;
+}
+
+article {
+    width: 100%;
+}
