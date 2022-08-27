@@ -24,19 +24,12 @@ span#burguer {
     background-color: rgb(73, 73, 73);
     display: block;
     color: white;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer; /*esse codigo vira o cursor em uma mão*/
+    te
 
-}
-
-span#burguer:hover {
-    background-color: white;
-    color: black;
 }
 
 menu {
-    display: none;
+    display: block;
 }
 
 menu > ul {
