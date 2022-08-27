@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) { /*Faz com que o */
+    span#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+}
